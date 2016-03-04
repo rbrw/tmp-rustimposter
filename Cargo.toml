@@ -1,0 +1,11 @@
+
+[package]
+name = "max"
+version = "0.0.1"
+
+[lib]
+name = "max"
+crate-type = ["dylib"]
+
+[dependencies]
+libc = "*"
